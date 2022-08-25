@@ -1,0 +1,21 @@
+article{
+    /* background: ;
+    background-color: ;
+    fill: ; */
+    background-color: rgb(105, 105, 182);
+    /* press on the little square of color to change the color dynamically */
+    margin: 10px;
+    padding: 70px 30px 70px; 
+    /* Using three numbers in padding does [ top | left&right | bottom ] */
+    display: block;
+    /* blocks take up maximum width! */
+}
+
+/* When inspecting an element the styles on top are the more important styles, when looking at css it goes
+tag selector, then ids and classes from top to bottom of stylesheet */
+/* Also more selectors means more heierarchy */
+
+header:hover {
+    /* THIS IS THE BEST AND SIMPLEST WAY TO ADD HOVER STYLES DO NOT SLEEP ON IT!!!! JS CAN GET COMPLICATED */
+    background-color: coral;
+}
